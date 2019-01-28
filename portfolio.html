@@ -1,103 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Portfolio</title>
-
-  <link rel="stylesheet" href="reset.css">
-
-  <!-- Boostrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-
-  <!-- Bootsrap Javascript -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="mystyle.css">
-
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light py-0">
-    <a class="navbar-brand px-4" href="index.html"> Zeinab Farag</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="wrapper">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item px-1">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item px-1">
-          <a class="nav-link active" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item px-1">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container body">
-
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Portfolio</h2>
-      </div>
-    </div>
-
-    <div class="row">
-
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <img src="images/image1.jpeg" alt="project1" class="img-fluid mb-2">
-        <a class=" titles" href="https://zeinabfarag.github.io/hangman/">Hangman</a>
-      </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <img src="images/image2.jpeg" alt="project2" class="img-fluid mb-2">
-        <a class=" titles" href="https://zeinabfarag.github.io/crystal-game/">Crystal Game</a>
-      </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <img src="images/image3.jpeg" alt="project3" class="img-fluid mb-2">
-        <a class=" titles" href="https://zeinabfarag.github.io/GiphyApi/">Giphy API</a>
-      </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <img src="images/image4.jpeg" alt="project4" class="img-fluid mb-2">
-        <a class=" titles" href="https://zeinabfarag.github.io/TrainApp/">Train Schedule</a>
-      </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <img src="images/image5.jpeg" alt="project5" class="img-fluid mb-2">
-        <a class=" titles" href="https://github.com/zeinabfarag/Liri-Node-App">Node Command Line App</a>
-      </div>
-
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <img src="images/image6.jpeg" alt="project6" class="img-fluid mb-2">
-        <a class=" titles" href="https://github.com/zeinabfarag/amazon"> Amazon App </a>
-      </div>
-
-    </div>
-
-    <footer class="container-fluid">
-      <nav class="navbar fixed-bottom justify-content-center">
-        Copyright ©
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
-    </footer>
+    </div>
+  </header>
 
+  <main class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+
+        <h3>Word Guess</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Info Widget">
+
+        <h3>Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg"  alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+  </main>
+  <div class="push"></div>
+</div>
+
+  <footer>
+    <div class="container">
+      &copy; Copyright
+    </div>
+  </footer>
 </body>
-
 </html>
