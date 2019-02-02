@@ -1,7 +1,7 @@
 # Portfolio-Bootstrap
 
 ## Overview
-A Simple Static Website built using HTML and Bootstrap Framework
+A simple responsive static sebsite built using HTML and Bootstrap framework
 
 ## Website
 
