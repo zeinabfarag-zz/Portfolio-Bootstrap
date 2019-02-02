@@ -1,6 +1,6 @@
 # Portfolio-Bootstrap
 
-## OverView
+## Overview
 A Simple Static Website built using HTML and Bootstrap Framework
 
 ## Website
